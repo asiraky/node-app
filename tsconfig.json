@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "baseUrl": "./", 
+        "paths": {
+            "@/*": ["packages/*"]
+        },
+        "strict": true, 
+        "noEmit": true, 
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+    },
+    "include": ["packages/**/*"],
+    "exclude": ["node_modules"]
+}

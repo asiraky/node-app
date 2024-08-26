@@ -1,0 +1,12 @@
+**/.next
+**/node_modules
+**/dist
+**/.cache
+**/coverage
+storybook-static
+
+/vendor
+/public
+/resources
+/wip
+/mysql 
